@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Bookmark landing page</title>
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="image-container">
+        <img src="./images/logo-bookmark.svg" alt="logo">
+      </div>
+
+      <button class="hamburger" id="hamburger">
+        ☰
+      </button>
+  
+      <div class="nav-links">
+        <button class="features"><a href="#">Features</a></button>
+        <button class="pricing"><a href="#">Pricing</a></button>
+        <button class="contact"><a href="#">Contact</a></button>
+        <button class="login-button">LOGIN</button>
+      </div>
+    </header>
+
+    <div class="first-section">
+      <div class="first-info">
+        <h1>A Simple Bookmark Manager</h1>
+        <p>A clean and simple interface to organize your favorite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
+        <div class="first-buttons">
+          <button class="chrome-button">Get it on Chrome</button>
+          <button class="firefox-button">Get it on Firefox</button>
+        </div>
+      </div>
+
+
+      <div class="first-image-container">
+        <img class="first-image" src="./images/illustration-hero.svg" alt="hero image">
+        <div class="image-background"></div>
+      </div>
+    </div>
+
+    <div class="second-section">
+      <h2>Features</h2>
+      <p>
+        <span class="short-line">
+          Our aim is to make it quick and easy for you to access your
+        </span>
+        favourite websites. Your bookmarks sync between your devices so you can access them on the go.
+      </p>
+    </div>
+    <div class="tabs">
+      <button class="tab-button active" data-tab="tab1">Simple Bookmarking</button>
+      <button class="tab-button" data-tab="tab2">Speedy Searching</button>
+      <button class="tab-button" data-tab="tab3">Easy Sharing</button>
+    </div>
+    
+    <div class="switching-tabs">
+      <div class="tab-content active" id="tab1">
+        <div class="content1">
+          <img src="./images/illustration-features-tab-1.svg" alt="tab1 image">
+        </div>
+        <div class="tab1-info">
+          <h2>Bookmark in one click</h2>
+          <p>Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favorite sites.</p>
+          <button>More info</button>
+        </div>
+      </div>
+  
+      <div class="tab-content" id="tab2">
+        <div class="content2">
+          <img src="./images/illustration-features-tab-2.svg" alt="tab1 image">
+        </div>
+        <div class="tab2-info">
+          <h2>Intelligent search</h2>
+          <p>Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.</p>
+          <button>More info</button>
+        </div>
+      </div>
+  
+      <div class="tab-content" id="tab3">
+        <div class="content3">
+          <img src="./images/illustration-features-tab-3.svg" alt="tab1 image">
+        </div>
+        <div class="tab3-info">
+          <h2>Share your bookmarks</h2>
+          <p>Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.</p>
+          <button>More info</button>
+        </div>
+      </div>
+    </div>
+    
+    <div class="download-sections">
+      <div class="download-info">
+        <h2>Download the extension</h2>
+        <p>We've got more browsers the pipeline. Please do let us know if you've got a favorite you'd like us to prioritize.</p>
+      </div>
+
+      <section class="extensions">
+        <div class="card">
+          <img src="./images/logo-chrome.svg" alt="Chrome">
+          <h3>Add to Chrome</h3>
+          <p>Minimum version 62</p>
+          <button>Add & Install Extension</button>
+        </div>
+      
+        <div class="card">
+          <img src="./images/logo-firefox.svg" alt="Firefox">
+          <h3>Add to Firefox</h3>
+          <p>Minimum version 55</p>
+          <button>Add & Install Extension</button>
+        </div>
+      
+        <div class="card">
+          <img src="./images/logo-opera.svg" alt="Opera">
+          <h3>Add to Opera</h3>
+          <p>Minimum version 46</p>
+          <button>Add & Install Extension</button>
+        </div>
+      </section>   
+
+    <div class="faq">
+      <h2>Frequently Asked Questions</h2>
+      <p>Here are some of our FAQs. If you have any other questions
+        <span>you'd like answered please feel free to email us.</span>
+      </p>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          What is Bookmark?
+          <img class="arrow" src="./images/icon-arrow.svg" alt="arrow">
+        </button>
+        <div class="faq-answer">
+          <p>
+            A bookmark is a web browser feature used to save a web site's URL address for future reference.
+          </p>
+        </div>
+      </div>
+      
+      <div class="faq-item">
+        <button class="faq-question">
+          How can I request a new browser?
+          <img class="arrow" src="./images/icon-arrow.svg" alt="arrow">
+        </button>
+        <div class="faq-answer">
+          <p>If your browser isn’t supported, you can request it by contacting us. We’ll let you know when it becomes available.</p>
+        </div>
+      </div>
+    
+      <div class="faq-item">
+        <button class="faq-question">
+          Is there a mobile app?
+          <img class="arrow" src="./images/icon-arrow.svg" alt="arrow">
+        </button>
+        <div class="faq-answer">
+          <p>Yes! Bookmark is available for both iOS and Android devices.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">
+          What about other Chrome browsers?
+          <img class="arrow" src="./images/icon-arrow.svg" alt="arrow">
+        </button>
+        <div class="faq-answer">
+          <p>Our extension works with most Chromium-based browsers (such as Brave, Edge, and Vivaldi). If your browser supports Chrome extensions, you should be able to install and use Bookmark.</p>
+        </div>
+      </div>
+      <button class="moreInfo-button">More Info</button>
+    </div>
+  </div>
+  <div class="contact-section">
+    <p>35.000+ already joined</p>   
+    <h2>Stay up-to-date with what we're doing</h2>
+    <div>
+      <input type="text" placeholder="Enter your email address" class="input-box">
+      <button class="contact-button">Contact Us</button>
+    </div>
+  </div>
+
+  <footer>
+    <div class="nav-links-footer">
+      <a href="./index.html"><img src="./images/logo-bookmark.svg" alt="logo"></a>
+      <button class="features"><a href="#">Features</a></button>
+      <button class="pricing"><a href="#">Pricing</a></button>
+      <button class="contact"><a href="#">Contact</a></button>
+    </div>
+
+    <div class="social-media">
+      <a href="#"><img src="./images/icon-facebook.svg" alt="facebook"></a>
+      <a href="#"><img src="./images/icon-twitter.svg" alt="twitter"></a>
+    </div>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+</html>
